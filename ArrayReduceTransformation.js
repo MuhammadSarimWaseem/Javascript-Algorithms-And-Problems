@@ -9,4 +9,3 @@ const array = [1, 2, 3, 4]
 let init = 0
 const result = ArrayReducer(array, init)
 console.log(result);
-
