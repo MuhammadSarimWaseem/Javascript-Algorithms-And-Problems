@@ -1,13 +1,12 @@
 Array.prototype.last = function () {
     let temp;
-    temp = this.length
-    if (this.length == 0) {
-        temp = -1
-        return temp
+    if (this.length > 0) {
+        temp = this[this.length - 1]
     } else {
-        return temp
+        temp = -1
     }
+    return temp
 }
 
-console.log([null, {}, 3].last());
+console.log([null, {}, 4].last());
 console.log([].last()); 
