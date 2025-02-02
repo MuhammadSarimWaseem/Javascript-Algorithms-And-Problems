@@ -9,4 +9,4 @@ Array.prototype.last = function () {
 }
 
 console.log([null, {}, 4].last());
-console.log([].last()); 
+console.log([].last());
